@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-21T03:23:50.650Z</updated>
+  <updated>2021-08-21T08:33:32.870Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu系统日常卡死的解决方法</title>
+    <link href="http://example.com/2021/08/21/Ubuntu%E7%B3%BB%E7%BB%9F%E6%97%A5%E5%B8%B8%E5%8D%A1%E6%AD%BB%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://example.com/2021/08/21/Ubuntu%E7%B3%BB%E7%BB%9F%E6%97%A5%E5%B8%B8%E5%8D%A1%E6%AD%BB%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-08-21T07:44:58.000Z</published>
+    <updated>2021-08-21T08:33:32.870Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><img src="https://raw.githubusercontent.com/resinprotein2333/my_blog_picture/main/ubuntu_bug_fix/ubuntu.png" alt="ubuntu"></p><p>在使用Linux操作系统作为主力已经有半年了，其中换过很多次系统，国产Deepin，Linux Mint，Kali，但最后还是因为各种原因换回了Ubuntu。但Ubuntu出现的Bug有点多，这个文章系列就是用于记录Ubuntu系统出现的一系列错误并提供一些解决方案。</p><span id="more"></span><h1 id="一些踩过的坑"><a href="#一些踩过的坑" class="headerlink" title="一些踩过的坑"></a>一些踩过的坑</h1><p>网上很多人都说使用Ctrl+Alt+F1可以进入tty终端，但这个方法很多人试后反馈无效，特作此记录。</p><h1 id="方法1：不需要重启"><a href="#方法1：不需要重启" class="headerlink" title="方法1：不需要重启"></a>方法1：不需要重启</h1><ul><li>1.想办法使用ssh连接到你的电脑上</li><li>2.使用命令注销调桌面重新登陆<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pkill Xorg 或 sudo restart lightdm</span><br></pre></td></tr></table></figure></li><li>3.执行后等待一会重新登陆就行了</li></ul><h1 id="方法2：需要重启"><a href="#方法2：需要重启" class="headerlink" title="方法2：需要重启"></a>方法2：需要重启</h1><p>Ubuntu强制重启会出现很多很麻烦的问题，作为曾经一周玩坏一个ubuntu系统的人，这方面我很有发言权。Ubuntu一般连续不正常断电5次之后，引导就会出现问题，然后你再开机的时候很大概率就会看见黑色的’grub&gt;‘了。</p><ul><li>1.同时按住Ctrl和Alt键，不要松手</li><li>2.按一下PrtScn键 （有些是SysRq）</li><li>3.按一下R键</li><li>4.按一下E键</li><li>5.依次按下I S U B键<br>之后系统将会自动重启<br>PS:在执行2，3，4，5步时，一定要按住Ctrl和Alt键不要松手。</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/resinprotein2333/my_blog_picture/main/ubuntu_bug_fix/ubuntu.png&quot; alt=&quot;ubuntu&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在使用Linux操作系统作为主力已经有半年了，其中换过很多次系统，国产Deepin，Linux Mint，Kali，但最后还是因为各种原因换回了Ubuntu。但Ubuntu出现的Bug有点多，这个文章系列就是用于记录Ubuntu系统出现的一系列错误并提供一些解决方案。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Ubuntu" scheme="http://example.com/tags/Ubuntu/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>加密和保护隐私之战---Telegram</title>
@@ -54,11 +76,11 @@
     
     
     
-    <category term="Raspberry-Pi" scheme="http://example.com/tags/Raspberry-Pi/"/>
-    
     <category term="Ubuntu" scheme="http://example.com/tags/Ubuntu/"/>
     
     <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+    <category term="Raspberry-Pi" scheme="http://example.com/tags/Raspberry-Pi/"/>
     
   </entry>
   
