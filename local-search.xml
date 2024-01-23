@@ -4,13 +4,38 @@
   
   
   <entry>
+    <title>使用Github仓库 + Picgo开源图床工具托管博客图片</title>
+    <link href="/posts/ec35174b/"/>
+    <url>/posts/ec35174b/</url>
+    
+    <content type="html"><![CDATA[<h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>在写博客的时候我们通常会需要导入一些图片,但是直接将过多的图片存放于本地的话时间长了又会拖慢博客站的访问速度,对访问的读者造成不便.</p><p>同时,如果想要在其他平台进行引用自己的图片的话又很不方便,需要重新进行上传,很不方便,那么在这个时候,就需要用到图床了.</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>在开始之前需要你拥有以下东西:</p><ul><li>一个 <a href="https://github.com/">Github</a> 账号</li><li><a href="https://molunerfinn.com/PicGo">Picgo</a> 开源图床软件</li></ul><p><del>❗PS: 如果还没有 Github 账号的可以注册一个.如果不想使用bata版本的软件的话,下载 Picgo 的时候需要注意是不是 Bata 版本</del></p><h3 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h3><p>在拥有Github账号之后,先创建一个新的仓库</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/NewRepository.png" alt="NewRepository.png"></p><p>名字这里可以填你的图床仓库的名字,下面选择 public </p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/NewRepository-setting.png" alt="NewRepository-setting.png"></p><p>如果你想的话,还可以添加一个 README 文件来对你的仓库进行说明,让更多人可以直观的了解这个仓库.</p><p>仓库这个样子就说明创建成功了</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/NewRepository-finish.png" alt="NewRepository-finish.png"></p><h3 id="对GitHub和Picgo进行配置"><a href="#对GitHub和Picgo进行配置" class="headerlink" title="对GitHub和Picgo进行配置"></a>对GitHub和Picgo进行配置</h3><p>到了这一步其实图床已经搭建的差不多了,但是直接通过GitHub上传图片未免有些麻烦,所以就需要用到刚刚准备好的 Picgo 图片上传软件来辅助完成图片上传.至于安装的部分便不再细讲,根据官网的引导做就行.</p><p>安装完毕之后,他会默认收缩在隐藏的图标中,右键显示主界面即可打开后是这个样子:</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/Picgo.png" alt="Picgo.png"></p><p>之后所需要做的便是对 GitHub 和 Picgo 进行分别的设置,我们先从GitHub的设置开始</p><h4 id="配置GitHub"><a href="#配置GitHub" class="headerlink" title="配置GitHub"></a>配置GitHub</h4><ol><li>我们首先需要向 GitHub 申请一个 token.</li></ol>    <div class="fold">      <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-b18b4289" role="button" aria-expanded="false" aria-controls="collapse-b18b4289">        <div class="fold-arrow">▶</div>关于GitHub Personal Access Token      </div>      <div class="fold-collapse collapse" id="collapse-b18b4289">        <div class="fold-content">          <p>GitHub Personal Access Token是一个用于身份验证的令牌(token)，它可以代替使用用户名和密码进行身份验证。 GitHub Personal Access Token是由GitHub颁发的，只有经过授权的用户才能使用。</p>        </div>      </div>    </div><blockquote><p>依次打开 <code>Settings -&gt; Developer settings -&gt; Personal access tokens</code></p></blockquote><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/GetToken-1.png" alt="GetToken-1.png"></p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/GetToken-2.png" alt="GetToken-2.png"></p><blockquote><p>最后点击 <code>generate new token (classic)</code></p></blockquote><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/GetToken-3.png" alt="GetToken-3.png"></p><ol><li>填写并勾选相关信息</li></ol><p>填写博客用途之后并勾选 repo 选项 然后点击 <code>Genetate token</code> 即可</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/Token-setting.png" alt="Token-setting.png"></p><p>出现以下提示栏则说明 token 创建成功</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/GetToken-successful.png" alt="GetToken-successful.png"></p><p><del>❗PS: 请将 token 转移至安全的地方保存, token 只会显示这一次,丢失或遗忘则需要重新创建.</del></p><h4 id="配置Picgo"><a href="#配置Picgo" class="headerlink" title="配置Picgo"></a>配置Picgo</h4><blockquote><p>打开 Picgo 并转到 <code>图床设置 -&gt; GitHub图床</code></p><p>然后点击<code>确定</code> 如果想要将图床设为默认,则可以点击 <code>设为默认图床</code></p></blockquote><p>根据所需的信息填写即可,下面两个不重要的选项可以留空</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/Picgo-setting.png" alt="Picgo-setting.png"></p><p>之后便可以在图片上传区进行上传,记得选择自己想要的链接样式,拖拽或是从文件夹选取图片都是可以的</p><p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Github-Picture-Bed/Picgo-upload.png" alt="Picgo-upload.png"></p><p>此外,如果想要将图片整理到文件夹中可能会有点不方便,需要重新到设置选项中设置文件夹的信息,这一点还是有点不方便,希望以后的版本可以改进.</p><p>想要在博客中引用图片的话直接在相册中,点击下方小图标就能直接把链接拷贝到剪切板.</p><h3 id="Hope-You-Can-Enjoy-And-Have-A-Nice-Day"><a href="#Hope-You-Can-Enjoy-And-Have-A-Nice-Day" class="headerlink" title="Hope You Can Enjoy And Have A Nice Day!"></a>Hope You Can Enjoy And Have A Nice Day!</h3>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>博客搭建相关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World!</title>
     <link href="/posts/4a17b156/"/>
     <url>/posts/4a17b156/</url>
     
-    <content type="html"><![CDATA[<h1 id="你好-欢迎造访小站👋"><a href="#你好-欢迎造访小站👋" class="headerlink" title="你好,欢迎造访小站👋"></a><center/>你好,欢迎造访小站👋<center/></h1><p>这是小站的第一篇文章,先对小站做一些简单的介绍</p><p>本站使用 <a href="https://hexo.io/">Hexo</a> + <a href="https://pages.github.com/">Github Pages</a> 构建的静态博客小站,使用 <a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid</a> 主题,代码托管于 <a href="https://github.com/">Github</a> ,用于记录一些在日常学习中所遇到的问题所得到的一些解决方案,希望通过这种分享到的方式来为其他人提供帮助.也方便以后再遇到这些问题时可以方便查找.</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="你好-欢迎造访小站👋"><a href="#你好-欢迎造访小站👋" class="headerlink" title="你好,欢迎造访小站👋"></a><center/>你好,欢迎造访小站👋<center/></h1><p>这是小站的第一篇文章,先对小站做一些简单的介绍</p><p>本站使用 <a href="https://hexo.io/">Hexo</a> + <a href="https://pages.github.com/">Github Pages</a> 构建的静态博客小站,使用 <a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid</a> 主题,代码托管于 <a href="https://github.com/">Github</a></p><p>用于记录一些在日常学习中所遇到的问题所得到的一些解决方案,希望通过这种分享到的方式来为其他人提供帮助.也方便以后再遇到这些问题时可以方便查找.</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Hello World!</tag>
+      
+    </tags>
     
   </entry>
   
