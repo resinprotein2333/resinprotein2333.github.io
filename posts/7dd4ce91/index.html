@@ -1,0 +1,740 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/index/website_icon.png">
+  <link rel="icon" href="/images/index/website_icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Resinprotein2333">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Hexo博客的默认主题未免有些单调,使用 Fluid 主题对博客进行美化和进行相关配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Fluid主题美化Hexo博客">
+<meta property="og:url" content="https://resinprotein2333.github.io/posts/7dd4ce91/index.html">
+<meta property="og:site_name" content="Resinprotein2333&#39;s Blog">
+<meta property="og:description" content="Hexo博客的默认主题未免有些单调,使用 Fluid 主题对博客进行美化和进行相关配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/index.png">
+<meta property="article:published_time" content="2024-01-25T00:13:11.000Z">
+<meta property="article:modified_time" content="2024-01-25T02:24:30.582Z">
+<meta property="article:author" content="Resinprotein2333">
+<meta property="article:tag" content="博客搭建相关">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/index.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>使用Fluid主题美化Hexo博客 - Resinprotein2333&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"resinprotein2333.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_<","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Resinprotein2333&#39;s Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/Banner.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="使用Fluid主题美化Hexo博客"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-01-25 08:13" pubdate>
+          2024年1月25日 早上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.6k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          14 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">使用Fluid主题美化Hexo博客</h1>
+            
+              <p id="updated-time" class="note note-info" style="">
+                
+                  
+                    本文最后更新于 2024年1月25日 10:24
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>上一次我们已经使用 Hexo 博客框架生成了了一个基本的博客网页并且搭建了可以用于存放图片的图床,并且在  GitHub 上也进行了第一次提交.可是 Hexo 默认的主题未免有些单调,这一次就使用 Fluid 来配置一下博客的主题使其变得更美观一些.</p>
+<blockquote>
+<p>如果想要自行获取主题可以从官方的主题配置中选择,点击 <a target="_blank" rel="noopener" href="https://hexo.io/themes/index.html">这里</a> 即可跳转</p>
+</blockquote>
+<p>这里就以我自己使用的 Fluid 主题为例并进行配置.</p>
+<h3 id="配置过程"><a href="#配置过程" class="headerlink" title="配置过程"></a>配置过程</h3><blockquote>
+<p>如果有不详尽的地方可以自行查看 <a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/">官方文档</a> ,官方的文档写的很详细,可以按需进行复制粘贴,本文写的时候也对官方的文档进行了一些借鉴,并且将一些官方文档中没有提到的一些功能写出来,希望能帮到你.</p>
+</blockquote>
+<h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><p>对于安装主题现在有两种方式分别是使用 <code>npm</code> 命令进行安装,还有一种便在 GitHub 下载源文件,这里对两种方式分别进行介绍</p>
+<blockquote>
+<p>两种方法各有好处,下载源文件可以方便对主题文件本身进行更改,使用 <code>npm</code> 进行安装 themes 目录下就不会有任何主题文件了,好在 Fluid 主题提供了一套易于更新的升级方式,所有需要的文件可以在主题配置文件里更改,所以还是更加推荐第一种,由读者自行按自身需求选择安装方式,关于主题配置文件稍后会提到,在此不过多赘述.</p>
+</blockquote>
+<h5 id="1-npm安装"><a href="#1-npm安装" class="headerlink" title="1. npm安装"></a>1. npm安装</h5><p>此方法仅对于 Hexo 5.0.0 版本以上,使用以下命令进行安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ npm install --save hexo-theme-fluid<br></code></pre></td></tr></table></figure>
+
+<h5 id="2-GitHub下载源文件"><a href="#2-GitHub下载源文件" class="headerlink" title="2. GitHub下载源文件"></a>2. GitHub下载源文件</h5><p>下载 <a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid/releases">最新 release 版本</a> 解压到 themes 目录，并将解压出的文件夹重命名为 <code>fluid</code> .</p>
+<h4 id="更改配置文件使用主题"><a href="#更改配置文件使用主题" class="headerlink" title="更改配置文件使用主题"></a>更改配置文件使用主题</h4><p>在博客的根目录处找到 <code>_config.yml</code> 文件,分别编辑以下条目</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-comment"># 指定语言为中文,按需修改</span><br><span class="hljs-attr">lanuage:</span> <span class="hljs-string">zh-CN</span><br><br><span class="hljs-comment"># 指定主题</span><br><span class="hljs-attr">theme:</span> <span class="hljs-string">fluid</span><br></code></pre></td></tr></table></figure>
+
+<p>保存退出后转到终端,执行以下命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ hexo clean	<span class="hljs-comment"># 清除上一次生成的静态网页文件</span><br>$ hexo g		<span class="hljs-comment"># 重新生成网页</span><br>$ hexo s		<span class="hljs-comment"># 运行 Hexo 服务器,在本地查看网页是否配置成功</span><br></code></pre></td></tr></table></figure>
+
+<p>使用 <code>Ctrl + 单击</code> 链接,即可在本地浏览器中看见生成的页面,不出意外的话,主题就配置成功了!</p>
+<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><p>因为配置主题是一件麻烦事,如果想将配置全部写出来会很麻烦,篇幅限制,这里只进行一些简单的配置</p>
+<p>Fluid 官方给出了一种配置主题的方式,使得想要配置主题的样式不需要再去修改 <code>_config.yml</code> 有效防止了不小心乱删配置文件内容导致的不可挽回的后果,操作方法如下:</p>
+<p>在博客的根目录下新建 <code>_config.fluid.yml</code> 文件即可</p>
+<p>这样的话对主题的配置就和默认配置文件分开了,以后将对于主题的配置直接写在 <code>_config.fluid.yml</code> 文件中即可,本文也将以此为基础,后续对主题的配置都将配置在此文件中.</p>
+<blockquote>
+<p>PS: 但是像 Lanuage 或是 Deploy 这些选项仍需要在  <code>_config.yml</code>  中进行配置,也只有在此处配置才能生效.</p>
+</blockquote>
+<h4 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h4><h5 id="更改主页动效打印的文字"><a href="#更改主页动效打印的文字" class="headerlink" title="更改主页动效打印的文字"></a>更改主页动效打印的文字</h5><p>在主题配置文件中加入下面的配置:</p>
+<p>这里我直接贴出我自己的设置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-attr">slogan:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">text:</span> <span class="hljs-string">他曾说:&quot;世界是你们的，也是我们的，但是归根结底是你们的。你们青年人朝气蓬勃，正在兴旺时期，好像早晨八、九点钟的太阳。希望寄托在你们身上。&quot;</span><br>  <span class="hljs-attr">api:</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">&quot;https://v1.hitokoto.cn/&quot;</span><br>    <span class="hljs-attr">method:</span> <span class="hljs-string">&quot;GET&quot;</span><br>    <span class="hljs-attr">headers:</span> &#123;&#125;<br>    <span class="hljs-attr">keys:</span> [<span class="hljs-string">&quot;hitokoto&quot;</span>]<br></code></pre></td></tr></table></figure>
+
+<p>如果想更改大打字机的动效.可以使用下面的设置:</p>
+<p>这里也是使用的我自己的设置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-attr">fun_features:</span><br>  <span class="hljs-attr">typing:</span> <span class="hljs-comment"># 为 subtitle 添加打字机效果</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">typeSpeed:</span> <span class="hljs-number">70</span> <span class="hljs-comment"># 打印速度</span><br>    <span class="hljs-attr">cursorChar:</span> <span class="hljs-string">&quot;_&lt;&quot;</span> <span class="hljs-comment"># 游标字符</span><br>    <span class="hljs-attr">loop:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 是否循环播放效果</span><br></code></pre></td></tr></table></figure>
+
+<p>效果如下:</p>
+<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/IndexEffect.png" srcset="/img/loading.gif" lazyload alt="IndexEffect.png"></p>
+<h5 id="配置-About-页"><a href="#配置-About-页" class="headerlink" title="配置 About 页"></a>配置 About 页</h5><p>官方对 About 页添加了一些特殊的设置,可以让 About 页看起来更漂亮,配置方法如下:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-attr">about:</span><br>  <span class="hljs-comment"># about 背景修改</span><br>  <span class="hljs-attr">banner_img:</span> <br>  <span class="hljs-comment"># 你想展示的头像大图</span><br>  <span class="hljs-attr">avatar:</span> <br>  <span class="hljs-comment"># 你的名字</span><br>  <span class="hljs-attr">name:</span> <span class="hljs-string">&quot;&quot;</span><br>  <span class="hljs-comment"># 你的个性签名</span><br>  <span class="hljs-attr">intro:</span> <span class="hljs-string">&quot;&quot;</span><br>  <span class="hljs-comment"># 签名下方的一些小图标和跳转链接,这里贴出我自己的设置</span><br>  <span class="hljs-attr">icons:</span><br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">class:</span> <span class="hljs-string">&quot;iconfont icon-home-fill&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;&quot;</span> , <span class="hljs-attr">tip:</span> <span class="hljs-string">&quot;主页&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">class:</span> <span class="hljs-string">&quot;iconfont icon-mail&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;mailto:&quot;</span>, <span class="hljs-attr">tip:</span> <span class="hljs-string">&quot;E-mail&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">class:</span> <span class="hljs-string">&#x27;iconfont icon-github-fill&#x27;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&#x27;&#x27;</span>, <span class="hljs-attr">tip:</span> <span class="hljs-string">&#x27;GitHub&#x27;</span> &#125;<br></code></pre></td></tr></table></figure>
+
+<p>贴上一张我自己配置的效果图:</p>
+<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/MyAbout.png" srcset="/img/loading.gif" lazyload alt="MyAbout.png"></p>
+<p>按照上面的注释修改即可,对于小图标可以参考官方的 <a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/icon/">图标用法</a> 页面</p>
+<p>在邮件链接处我保留了一个 <code>mailto:</code> 将你自己的邮件地址填到后面即可,这样在别人点击E-mail图标后可以直接弹出发送邮件对话框.</p>
+<p>效果如下:</p>
+<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/MailTo.png" srcset="/img/loading.gif" lazyload alt="MailTo.png"></p>
+<h4 id="一些官方没有提到的设置"><a href="#一些官方没有提到的设置" class="headerlink" title="一些官方没有提到的设置"></a>一些官方没有提到的设置</h4><h5 id="设置网页图标"><a href="#设置网页图标" class="headerlink" title="设置网页图标"></a>设置网页图标</h5><p>在主题配置文件中加入下面两条配置:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-comment"># 用于浏览器标签的图标</span><br><span class="hljs-attr">favicon:</span> <br><br><span class="hljs-comment"># 用于苹果设备的图标</span><br><span class="hljs-attr">apple_touch_icon:</span> <br></code></pre></td></tr></table></figure>
+
+<p>这一点官方并没有提到这里,当时找了好久才找到解决方式参考了<a target="_blank" rel="noopener" href="https://mobeicanyue.github.io/posts/5eba38dc/">Fluid主题安装 - 漠北残月的博客</a> 万分感谢大佬的分享.</p>
+<p>效果如下:</p>
+<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/Fluid-Theme-For-Blog/IconEffect.png" srcset="/img/loading.gif" lazyload alt="IconEffect.png"></p>
+<blockquote>
+<p>本地图标可以存放在 <code>/source/images/</code> 目录下, 如果使用图床的话可以使用图片URL,切记粘贴时需要变成  <code>source/images/</code> 路径,否则会无法识别</p>
+</blockquote>
+<p>推荐一个获取 <a target="_blank" rel="noopener" href="https://www.iconfinder.com/">免费Icon</a> 的网站,筛选后图标即可免费使用.</p>
+<h5 id="各个标签页和命名参考"><a href="#各个标签页和命名参考" class="headerlink" title="各个标签页和命名参考"></a>各个标签页和命名参考</h5><p>如下:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs Yml"><span class="hljs-comment"># 首页</span><br><span class="hljs-attr">index:</span><br><br><span class="hljs-comment"># 归档页</span><br><span class="hljs-attr">archive:</span><br><br><span class="hljs-comment"># 分类页</span><br><span class="hljs-attr">category:</span><br><br><span class="hljs-comment"># 标签页</span><br><span class="hljs-attr">tag:</span><br><br><span class="hljs-comment"># 关于页</span><br><span class="hljs-attr">about:</span><br></code></pre></td></tr></table></figure>
+
+<p>希望能在你自己配置主题的可以帮到你</p>
+<h3 id="参考和引用"><a href="#参考和引用" class="headerlink" title="参考和引用"></a>参考和引用</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 用户手册</a></li>
+<li><a target="_blank" rel="noopener" href="https://mobeicanyue.github.io/posts/5eba38dc/">Fluid主题安装 - 漠北残月的博客</a></li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3/" class="print-no-link">#博客搭建相关</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>使用Fluid主题美化Hexo博客</div>
+      <div>https://resinprotein2333.github.io/posts/7dd4ce91/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Resinprotein2333</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年1月25日 08:13</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>更新于</div>
+          <div>2024年1月25日 10:24</div>
+        </div>
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/ec35174b/" title="使用Github仓库 + Picgo开源图床工具托管博客图片">
+                        <span class="hidden-mobile">使用Github仓库 + Picgo开源图床工具托管博客图片</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
