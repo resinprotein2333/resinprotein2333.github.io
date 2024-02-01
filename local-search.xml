@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>为个人博客站创建sitemap并将其推送至谷歌</title>
+    <link href="/posts/d7fd6556/"/>
+    <url>/posts/d7fd6556/</url>
+    
+    <content type="html"><![CDATA[<h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>如果在正常情况下搭建好的博客如果不手动对其进行推送的话,搜索引擎是很难将你自己的网站收录进搜索引擎的.在搭建好博客之后,我们仍需要对我们自己的小站手动进行推送.这个时候,我们就需要用到 sitemap 来方便搜索引擎更好的收录我们博客小站下的文章,并将其推送给有需求的人.</p><h3 id="如何给网站生成-Sitemap"><a href="#如何给网站生成-Sitemap" class="headerlink" title="如何给网站生成 Sitemap"></a>如何给网站生成 Sitemap</h3><p>笔者平时使用的多是 Google 和 Being 搜索引擎.如果想让百度收录你的站点的话则需要使用其他方法,由于百度收录站点的工具收录站点的速度奇慢,并且百度的广告横行,被百度收录的文章极有可能在不知情的情况下被转载到 CSDN 和其他网络垃圾复制粘贴文章聚集地.所以这里仅展示如何给这两个引擎生成方便他们收录网站的 Sitemap .</p><h4 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Powershell"><span class="hljs-variable">$</span> npm install hexo<span class="hljs-literal">-generator-sitemap</span> <span class="hljs-literal">--save</span><br></code></pre></td></tr></table></figure><p>安装完成后是是这个样子的</p><p><img src="/"></p><h4 id="生成站点地图"><a href="#生成站点地图" class="headerlink" title="生成站点地图"></a>生成站点地图</h4><p>在博客站根目录下,找到并修改 <code>_config.yml</code> 文件,找到其中的 <code>URL</code> 配置并进行修改</p><p>这里给出我自己的配置</p><p><img src="/"></p><p>之后再终端执行 <code>hexo g</code> 即可再站点根目录下发现生成的 sitemap 文件</p><p><img src="/"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>博客搭建相关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>一些简单的Windows Dos终端命令和快捷键</title>
     <link href="/posts/278acfb5/"/>
     <url>/posts/278acfb5/</url>
