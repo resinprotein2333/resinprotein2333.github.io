@@ -16,26 +16,24 @@
   <meta name="author" content="Resinprotein2333">
   <meta name="keywords" content="">
   
-    <meta name="description" content="VMware Workstation 16 Exception 0xc0000005 不可恢复错误的个人解决方案">
+    <meta name="description" content="导语在进行程序开发时,经常需要使用终端对程序进行调试,这里记录学习中可能会经常用到的一些简单的 Windows DOS 命令. 开启DOS界面使用 Win + R 组合键打开运行,输入 cmd 即可打开DOS界面 指令一些常用的基础指令,记录下来以供参考 切换盘符123$ D:# 或者$ d:  列出当前目录下的文件的详细信息1$ dir  改变当前目录1$ cd 目录名称   . 代表当前目录">
 <meta property="og:type" content="article">
-<meta property="og:title" content="VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案">
-<meta property="og:url" content="https://resinprotein2333.github.io/posts/817eea82/index.html">
+<meta property="og:title" content="Windows-Dos-Command">
+<meta property="og:url" content="https://resinprotein2333.github.io/posts/278acfb5/index.html">
 <meta property="og:site_name" content="Resinprotein2333&#39;s Blog">
-<meta property="og:description" content="VMware Workstation 16 Exception 0xc0000005 不可恢复错误的个人解决方案">
+<meta property="og:description" content="导语在进行程序开发时,经常需要使用终端对程序进行调试,这里记录学习中可能会经常用到的一些简单的 Windows DOS 命令. 开启DOS界面使用 Win + R 组合键打开运行,输入 cmd 即可打开DOS界面 指令一些常用的基础指令,记录下来以供参考 切换盘符123$ D:# 或者$ d:  列出当前目录下的文件的详细信息1$ dir  改变当前目录1$ cd 目录名称   . 代表当前目录">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/VMware-Workstation-Exception-0xc0000005/index.jpg">
-<meta property="article:published_time" content="2024-01-28T01:59:16.000Z">
-<meta property="article:modified_time" content="2024-01-28T06:07:36.777Z">
+<meta property="article:published_time" content="2024-01-29T07:32:47.000Z">
+<meta property="article:modified_time" content="2024-02-01T01:16:59.396Z">
 <meta property="article:author" content="Resinprotein2333">
-<meta property="article:tag" content="VMware">
+<meta property="article:tag" content="WindowsDOS命令">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/VMware-Workstation-Exception-0xc0000005/index.jpg">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案 - Resinprotein2333&#39;s Blog</title>
+  <title>Windows-Dos-Command - Resinprotein2333&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -195,13 +193,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/VMware-Workstation-Exception-0xc0000005/Banner.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案"></span>
+            <span id="subtitle" data-typed-text="Windows-Dos-Command"></span>
           
         </div>
 
@@ -212,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-28 09:59" pubdate>
-          2024年1月28日 上午
+        <time datetime="2024-01-29 15:32" pubdate>
+          2024年1月29日 下午
         </time>
       </span>
     
@@ -224,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          576 字
+          266 字
         
       </span>
     
@@ -235,7 +233,7 @@
         
         
         
-          5 分钟
+          3 分钟
         
       </span>
     
@@ -280,12 +278,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案</h1>
+            <h1 id="seo-header">Windows-Dos-Command</h1>
             
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 2024年1月28日 14:07
+                    本文最后更新于 2024年2月1日 09:16
                   
                 
               </p>
@@ -293,37 +291,39 @@
             
               <div class="markdown-body">
                 
-                <h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>最近在使用 VMware 16 搭建渗透测试靶机环境时,遇到了一些问题.在搭建 Windows 虚拟机开机时,出现了以下错误</p>
-<blockquote>
-<p>VMware Workstation 不可恢复错误: (vcpu-2)</p>
-<p>Exception 0xc0000005 (access violation) has occurred.</p>
-</blockquote>
-<p>错误代码从0 - 5依次弹了一遍,属实是有些离谱.对于此问题的解决方案,网上更是众说纷纭.</p>
-<p>有的说是兼容性问题,但是改了程序兼容性并不能解决问题.还有的说要升级到最新版本的 VMware 17 但是 VMware 17 本身的问题就很多,这一点稍后再说.网上复制粘贴搬运的垃圾文章大多并没有什么含金量,在废了很大功夫之后,终于找到了原因和解决方案,这里我给出我自己的解决方案.</p>
-<h3 id="电脑环境"><a href="#电脑环境" class="headerlink" title="电脑环境"></a>电脑环境</h3><ul>
-<li>Windows 11</li>
-<li>VMware Workstation PRO 16  16.1.2</li>
-</ul>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>出现此问题的根本原因是因为 Windows 11 的系统兼容性太差.并且 Hyper-V 和 VMware 貌似底层系统中使用的东西有冲突所以导致了问题,网上虽说有能够使 Hyper-V 和 VMware 共存的方法,但是在 Windows 11 下并不可用.</p>
-<p>VMware 16.1.2 本身似乎也有一些问题,有些文章让把软件更新到更新版本的VMware 17但亲测 VMware 17 在 Windows 11 下会出现卡顿问题.如在 Linux 虚拟机终端中输入字符时反应缓慢,开机速度缓慢等.</p>
-<p>考虑到 VMware 的功能更多且使用较为熟悉,所以便选择保留使用 VMware .静待 Mircosoft 和 VMware 的更新在未来兼容性好的时候再进行配置</p>
-<p><del>别问,问就是血泪史 QAQ</del></p>
-<p>这里给出我自己的解决方案:</p>
-<blockquote>
-<p>先关闭 Windows 功能中的 <code>虚拟机</code> 功能来关闭 Hyper-V ,由于关闭 Hyper-V 会导致 基于 WSL2 的 Linux 子系统无法使用,所以也将其关闭.</p>
-<p>将 VMware 版本更新至 16.2.2 </p>
-</blockquote>
-<p>以管理员身份打开命令提示符执行下面指令,彻底关闭 Hyper-V 服务</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs PowerShell"><span class="hljs-variable">$</span> bcdedit /<span class="hljs-built_in">set</span> hypervisorlaunchtype off<br></code></pre></td></tr></table></figure>
+                <h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>在进行程序开发时,经常需要使用终端对程序进行调试,这里记录学习中可能会经常用到的一些简单的 Windows DOS 命令.</p>
+<h3 id="开启DOS界面"><a href="#开启DOS界面" class="headerlink" title="开启DOS界面"></a>开启DOS界面</h3><p>使用 <code>Win</code> + <code>R</code> 组合键打开运行,输入 <code>cmd</code></p>
+<p>即可打开DOS界面</p>
+<h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3><p>一些常用的基础指令,记录下来以供参考</p>
+<h4 id="切换盘符"><a href="#切换盘符" class="headerlink" title="切换盘符"></a>切换盘符</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ D:<br><span class="hljs-comment"># 或者</span><br>$ d:<br></code></pre></td></tr></table></figure>
 
-<p>VMware 16.2.2 版本可以到 VMware 官网获取,不过似乎要注册一个账号才能提供下载</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://customerconnect.vmware.com/cn/downloads/get-download?downloadGroup=WKST-1622-WIN&download=true&fileId=86986763bf7e37e43958ce829f8d28bb&uuId=5c66d24f-fd39-4b73-ac0e-5e863df5425b">VMware Workstation 16.2.2 Pro for Windows</a></li>
-</ul>
-<p>检查 VMware 版本</p>
-<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/VMware-Workstation-Exception-0xc0000005/VMware16.2.2.png" srcset="/img/loading.gif" lazyload alt="VMware16.2.2.png"></p>
-<p>更新完成后即可解决安装虚拟机出现的错误.之后重启电脑安装虚拟机即可成功.</p>
-<p><img src="https://raw.githubusercontent.com/resinprotein2333/BlogPhotoBed/main/VMware-Workstation-Exception-0xc0000005/Finish.png" srcset="/img/loading.gif" lazyload alt="Finish.png"></p>
+<h4 id="列出当前目录下的文件的详细信息"><a href="#列出当前目录下的文件的详细信息" class="headerlink" title="列出当前目录下的文件的详细信息"></a>列出当前目录下的文件的详细信息</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ <span class="hljs-built_in">dir</span><br></code></pre></td></tr></table></figure>
+
+<h4 id="改变当前目录"><a href="#改变当前目录" class="headerlink" title="改变当前目录"></a>改变当前目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ <span class="hljs-built_in">cd</span> 目录名称<br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p><code>.</code> 代表当前目录</p>
+<p><code>..</code> 代表上层目录</p>
+</blockquote>
+<h4 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ md 目录名<br></code></pre></td></tr></table></figure>
+
+<h4 id="删除目录"><a href="#删除目录" class="headerlink" title="删除目录"></a>删除目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ rd 目录名<br></code></pre></td></tr></table></figure>
+
+<h4 id="复制文件"><a href="#复制文件" class="headerlink" title="复制文件"></a>复制文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ copy 文件名 路径<br></code></pre></td></tr></table></figure>
+
+<h4 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ del 文件名<br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>仅供删除文件,即使是文件夹,也只会删除文件夹中的文件,删除目录请使用 <code>rd</code> 命令</p>
+</blockquote>
+<h4 id="清屏"><a href="#清屏" class="headerlink" title="清屏"></a>清屏</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ cls<br></code></pre></td></tr></table></figure>
+<h4 id="查看网络信息"><a href="#查看网络信息" class="headerlink" title="查看网络信息"></a>查看网络信息</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ ipconfig<br></code></pre></td></tr></table></figure>
+
+<h4 id="检测网络是否畅通"><a href="#检测网络是否畅通" class="headerlink" title="检测网络是否畅通"></a>检测网络是否畅通</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ ping 网址或IP地址<br></code></pre></td></tr></table></figure>
+
+<h3 id="终端中的一些操作"><a href="#终端中的一些操作" class="headerlink" title="终端中的一些操作"></a>终端中的一些操作</h3><h4 id="补全命令"><a href="#补全命令" class="headerlink" title="补全命令"></a>补全命令</h4><p>双击 <code>Tab</code> 键</p>
+<h4 id="切换历史命令"><a href="#切换历史命令" class="headerlink" title="切换历史命令"></a>切换历史命令</h4><p><code>上方向</code>键 or <code>下方向</code> 键</p>
+<h4 id="清屏-1"><a href="#清屏-1" class="headerlink" title="清屏"></a>清屏</h4><p><code>Ctrl</code> + <code>L</code> 键</p>
 
                 
               </div>
@@ -336,7 +336,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/VMware/" class="print-no-link">#VMware</a>
+        <a href="/tags/WindowsDOS%E5%91%BD%E4%BB%A4/" class="print-no-link">#WindowsDOS命令</a>
       
     </div>
   
@@ -348,8 +348,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案</div>
-      <div>https://resinprotein2333.github.io/posts/817eea82/</div>
+      <div>Windows-Dos-Command</div>
+      <div>https://resinprotein2333.github.io/posts/278acfb5/</div>
     </div>
     <div class="license-meta">
       
@@ -361,13 +361,13 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年1月28日 09:59</div>
+          <div>2024年1月29日 15:32</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年1月28日 14:07</div>
+          <div>2024年2月1日 09:16</div>
         </div>
       
       
@@ -410,18 +410,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/278acfb5/" title="Windows-Dos-Command">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Windows-Dos-Command</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/d41ae2c/" title="WSL2 错误 0x80370102 个人解决方案">
-                        <span class="hidden-mobile">WSL2 错误 0x80370102 个人解决方案</span>
+                      <a href="/posts/817eea82/" title="VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案">
+                        <span class="hidden-mobile">VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

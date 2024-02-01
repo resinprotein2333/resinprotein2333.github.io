@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Windows-Dos-Command</title>
+    <link href="/posts/278acfb5/"/>
+    <url>/posts/278acfb5/</url>
+    
+    <content type="html"><![CDATA[<h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>在进行程序开发时,经常需要使用终端对程序进行调试,这里记录学习中可能会经常用到的一些简单的 Windows DOS 命令.</p><h3 id="开启DOS界面"><a href="#开启DOS界面" class="headerlink" title="开启DOS界面"></a>开启DOS界面</h3><p>使用 <code>Win</code> + <code>R</code> 组合键打开运行,输入 <code>cmd</code></p><p>即可打开DOS界面</p><h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3><p>一些常用的基础指令,记录下来以供参考</p><h4 id="切换盘符"><a href="#切换盘符" class="headerlink" title="切换盘符"></a>切换盘符</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ D:<br><span class="hljs-comment"># 或者</span><br>$ d:<br></code></pre></td></tr></table></figure><h4 id="列出当前目录下的文件的详细信息"><a href="#列出当前目录下的文件的详细信息" class="headerlink" title="列出当前目录下的文件的详细信息"></a>列出当前目录下的文件的详细信息</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ <span class="hljs-built_in">dir</span><br></code></pre></td></tr></table></figure><h4 id="改变当前目录"><a href="#改变当前目录" class="headerlink" title="改变当前目录"></a>改变当前目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ <span class="hljs-built_in">cd</span> 目录名称<br></code></pre></td></tr></table></figure><blockquote><p><code>.</code> 代表当前目录</p><p><code>..</code> 代表上层目录</p></blockquote><h4 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ md 目录名<br></code></pre></td></tr></table></figure><h4 id="删除目录"><a href="#删除目录" class="headerlink" title="删除目录"></a>删除目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ rd 目录名<br></code></pre></td></tr></table></figure><h4 id="复制文件"><a href="#复制文件" class="headerlink" title="复制文件"></a>复制文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ copy 文件名 路径<br></code></pre></td></tr></table></figure><h4 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ del 文件名<br></code></pre></td></tr></table></figure><blockquote><p>仅供删除文件,即使是文件夹,也只会删除文件夹中的文件,删除目录请使用 <code>rd</code> 命令</p></blockquote><h4 id="清屏"><a href="#清屏" class="headerlink" title="清屏"></a>清屏</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ cls<br></code></pre></td></tr></table></figure><h4 id="查看网络信息"><a href="#查看网络信息" class="headerlink" title="查看网络信息"></a>查看网络信息</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ ipconfig<br></code></pre></td></tr></table></figure><h4 id="检测网络是否畅通"><a href="#检测网络是否畅通" class="headerlink" title="检测网络是否畅通"></a>检测网络是否畅通</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Bash">$ ping 网址或IP地址<br></code></pre></td></tr></table></figure><h3 id="终端中的一些操作"><a href="#终端中的一些操作" class="headerlink" title="终端中的一些操作"></a>终端中的一些操作</h3><h4 id="补全命令"><a href="#补全命令" class="headerlink" title="补全命令"></a>补全命令</h4><p>双击 <code>Tab</code> 键</p><h4 id="切换历史命令"><a href="#切换历史命令" class="headerlink" title="切换历史命令"></a>切换历史命令</h4><p><code>上方向</code>键 or <code>下方向</code> 键</p><h4 id="清屏-1"><a href="#清屏-1" class="headerlink" title="清屏"></a>清屏</h4><p><code>Ctrl</code> + <code>L</code> 键</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>WindowsDOS命令</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VMware Workstation Exception 0xc0000005 不可恢复错误个人解决方案</title>
     <link href="/posts/817eea82/"/>
     <url>/posts/817eea82/</url>
