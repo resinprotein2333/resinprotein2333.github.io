@@ -1,12 +1,4 @@
 User-agent: *
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
-Allow: /about/
-
-Disallow: /js/
-Disallow: /css/
-Disallow: /xml/
+Disallow:
 
 Sitemap: https://resinprotein2333.github.io/sitemap.xml
