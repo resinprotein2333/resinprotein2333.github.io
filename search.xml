@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Cisco Packet Tracer 安装教程</title>
+    <url>/posts/35e1ac0/</url>
+    <content><![CDATA[<h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><p>Packet Tracer 是由思科系统设计的跨平台可视化仿真工具,它允许用户创建网络拓扑以模仿计算机网络和使用命令行界面来模拟配置思科路由器和交换机.Packet Tracer 的用户界面为拖放式,允许用户根据自己的需要添加和删除模拟的网络设备.该软件主要面向参加思科认证网络工程师认证考试的学生，作为他们备考思科认证网络工程师认证考试的学习工具.</p>
+<p>一个图形化的软件能够在学习网络的时候获得更直观的体验,正好日常上课的时候也有需要做练习的需求这篇博文主要介绍如何免费注册下载安装 Cisco Packet Tracer.</p>
+<h3 id="详细过程"><a href="#详细过程" class="headerlink" title="详细过程"></a>详细过程</h3><p>想要使用 Cisco Packet Tracer 需要一个思科账户,并且学习一个简单的课程才能免费下载,本篇博文的目的便是逐步帮助读者注册并安装软件.</p>
+<p>首先打开 Cisco Packet Tracer -&gt; <a class="link"   href="https://www.netacad.com/courses/packet-tracer" >官网链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 官网应该是这个样子的:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/CiscoPacketTracerWebSite.png"
+                      alt="CiscoPacketTracerWebSite.png"
+                ></p>
+<p>点击 <code>View courses</code> 查看课程</p>
+<p>会弹出一个新窗口,大致是这样的:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/JumpToSkillForAll.png"
+                      alt="JumpToSkillForAll.png"
+                ></p>
+<p>我们需要在这里注册并链接思科账户并下载 Cisco Packet Tracer</p>
+<p>PS: 如果你的电脑安装有广告拦截插件,或者是浏览器对网站的行为管理模式为严格的话,可能新的窗口有不会自己弹出来,那么你就需要自己手动点击 skill to all 跳转到重定向后的网页.</p>
+<h4 id="注册思科账户"><a href="#注册思科账户" class="headerlink" title="注册思科账户"></a>注册思科账户</h4><p>首先需要注册一个思科账户,在页面右上方点击 <code>Log in</code> , 之后的界面应当如下:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/Login.png"
+                      alt="Login.png"
+                ></p>
+<p>但是此刻我们是没有思科账户的,所以我们需要点击下方的 Sign up 注册一个属于你自己的思科账户,界面如下:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/Signup.png"
+                      alt="Signup.png"
+                ></p>
+<p>根据你自己的个人情况按照要求填就行.之后便是一路 continue 一路填信息.</p>
+<blockquote>
+<p>PS: 在选择国家的时候是没有中国大陆选项的,只有港澳台特别行政区.所以…</p>
+</blockquote>
+<h4 id="报名免费课程并下载"><a href="#报名免费课程并下载" class="headerlink" title="报名免费课程并下载"></a>报名免费课程并下载</h4><p>在注册完成后,我们需要返回之前跳转的那个网站,这时候思科的官网上你自己的账户应该是默认的登录状态,如果没有的话,则需要进行再次登录.</p>
+<p>在检查完毕之后,这时候我们需要找到下面的课程,只有学习课程才能得到下载的链接.</p>
+<p>找到下面这个点进去</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/FreeClass.png"
+                      alt="FreeClass.png"
+                ></p>
+<p>然后点击 <code>Get Started</code> 即可</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/FreeClassGetStarted.png"
+                      alt="FreeClassGetStarted.png"
+                ></p>
+<p>进入课程,向下滑动,即可找到 <code>Cisco Packet Tracer</code> 的资源下载链接</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/JumpToDowdloadLink.png"
+                      alt="JumpToDowdloadLink.png"
+                ></p>
+<p>在这里你便可以找到对应各个版本系统的下载链接,点击即可进行下载</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/DownloadLink.png"
+                      alt="DownloadLink.png"
+                ></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>这里因为笔者的电脑系统为Windows,所以便以windows版本为示例进行安装演示.这里仅演示安装过程中的一些关键选项.</p>
+<p>首先,需要同意思科的许可证协议才能继续,选择 <code>I accept the agreement</code></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/Install-1.png"
+                      alt="Install-1.png"
+                ></p>
+<p>然后便是选择你安装软件的路径,默认安装在C盘,但是如果你的其他磁盘空余空间的话还是建议安装在其他磁盘.我这里安装到D盘.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/Install-2.png"
+                      alt="Install-2.png"
+                ></p>
+<p>之后便是选择是否创建桌面快捷方式.根据自己的需求选择即可,然后安装.</p>
+<p>安装成功</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/Install-3.png"
+                      alt="Install-3.png"
+                ></p>
+<p>这里可以直接打开软件.打开软件后需要登陆你的思科账户</p>
+<p>如下:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/LogInCiscoPacketTracer.png"
+                      alt="LogInCiscoPacketTracer.png"
+                ></p>
+<p>登录你自己的思科账户即可.登录后软件的主界面看起来是这样的</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/CiscoPacketTracerInstall/CiscoPacketTracer.png"
+                      alt="CiscoPacketTracer.png"
+                ></p>
+<p>安装成功!</p>
+<h3 id="Hope-you-can-enjoy"><a href="#Hope-you-can-enjoy" class="headerlink" title="Hope you can enjoy!"></a>Hope you can enjoy!</h3><h3 id="参考和引用"><a href="#参考和引用" class="headerlink" title="参考和引用"></a>参考和引用</h3><p><a class="link"   href="https://zh.wikipedia.org/zh-cn/Packet_Tracer" >维基百科 - Packet Tracer <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>软件安装教程</category>
+      </categories>
+      <tags>
+        <tag>Cisco</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<h2 id="你好-👋"><a href="#你好-👋" class="headerlink" title="你好 👋"></a>你好 👋</h2><p>这是小站的第一篇文章,先对小站做一些简单的介绍</p>
+<p>本站使用 Hexo + Github Pages 构建的静态博客小站,网页代码代码托管在 Github</p>
+<p>本站文章是用于记录一些在日常学习中所遇到的问题所得到的一些解决方案,希望通过这种分享方式来为其他人提供帮助.</p>
+<p>同时也方便笔者以后再遇到这些问题时可以第一时间查找到解决方案.</p>
+<h3 id="希望能为造访小站的你提供帮助-🫡"><a href="#希望能为造访小站的你提供帮助-🫡" class="headerlink" title="希望能为造访小站的你提供帮助. 🫡"></a>希望能为造访小站的你提供帮助. 🫡</h3>]]></content>
+      <categories>
+        <category>HelloWorld</category>
+      </categories>
+      <tags>
+        <tag>Hello Wrold</tag>
+      </tags>
+  </entry>
+</search>
