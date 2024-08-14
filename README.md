@@ -1,4 +1,6 @@
-# resinprotein2333.github.io
+<h3 align="center">
+  <p> resinprotein2333.github.io </p>
+</h3>
 
 ![resinprotein2333.github.io](https://raw.githubusercontent.com/resinprotein2333/PhotoBed/main/resinprotein2333.github.io.png)
 
