@@ -1,0 +1,8 @@
+http://example.com/posts/35e1ac0/
+http://example.com/posts/4a17b156/
+http://example.com/tags/index.html
+http://example.com/
+http://example.com/tags/Cisco/
+http://example.com/tags/Hello-Wrold/
+http://example.com/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/
+http://example.com/categories/HelloWorld/
